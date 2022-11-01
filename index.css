@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image:url(./bkg.webp) ;
+    border: 7px solid;
+    border-color: greenyellow;
+    border-style: groove;
+    background-repeat:repeat;
+    background-size:auto;
+
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+.box1{
+    border: 5px solid red;
+    border-radius: 20px;
+    height: 200px;
+    width: 381px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h2{
+    color: white;
+    width: 400px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    position: absolute;
+    top: 106px;
+    left: 505px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+#box2{
+    color: white;
+    font-style: italic;
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 42px;
+    margin-left: 137px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+#center{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#circle{
+    border: 10px solid rgb(100, 12, 100);
+    border-radius: 600px;
+    background-color: rgb(105, 188, 160);
+    color: black;
+    height: 300px;
+    width: 400px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#register{
+    border: 10px solid rgb(224, 52, 150);
+    color: rgb(146, 30, 69);
+    border-style: dashed;
+    background-color: white;
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    padding: 10px; ;
+}
+
+.menu{
+    border: 5px solid red;
+    border-radius: 40px;
+    height: 105px;
+    width: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-left: 450px;
+    margin-right: 300px;
+    margin-top: 30px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.box3{
+    border: 3px solid black;
+   border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 30px ;
+    line-height: 130%;
+    margin-top: 30px;
+
+}
+
+
+.box4{
+    border: 3px solid black;
+   border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 30px ;
+    line-height: 130%;
+    margin-top: 30px;
+
+}
+
